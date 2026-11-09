@@ -1,5 +1,9 @@
 # PEKAT Assistant
 
+Version 0.3.0 is publicly validated and locally installed. A fresh local Codex
+chat used the installed skills and an actual bundled tool; see the scoped
+[acceptance evidence](docs/VALIDATION.md). GPT account migration remains partial.
+
 A standalone public plugin for PEKAT VISION engineering: detailed version-aware
 knowledge, inspection/FLOW design, bundled offline project/log/dataset/model
 analysis, and Code/PTool/PModule generation. Optional local Core lookup is a thin
