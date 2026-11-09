@@ -58,6 +58,10 @@ def validate(root: Path = ROOT, approvals: bool = True) -> list[str]:
         if not re.fullmatch(r"\d+\.\d+\.\d+(?:-[a-zA-Z0-9.-]+)?", manifest.get("version", "")):
             issues.append("invalid plugin version")
         meta = manifest["extensions"]["com.openai"]
+        for field in ("logo", "composerIcon"):
+            asset_ref = meta["interface"].get(field, "")
+            if not isinstance(asset_ref, str) or not asset_ref.startswith("./assets/") or not (plugin / asset_ref).is_file():
+                issues.append("missing or invalid branding asset: " + field)
         if meta["interface"]["displayName"] != "PEKAT Assistant" or meta["requires_local_executor"] is not True:
             issues.append("invalid host metadata")
         catalog = json.loads((root / ".agents/plugins/marketplace.json").read_text(encoding="utf-8"))
@@ -75,6 +79,20 @@ def validate(root: Path = ROOT, approvals: bool = True) -> list[str]:
         return issues + [str(exc)]
     for name in paths:
         path = root / name
+        if name == "plugins/pekat-assistant/assets/app-icon.png":
+            icon_bytes = path.read_bytes()
+            if (
+                len(icon_bytes) < 32 or len(icon_bytes) > 5 * 1024 * 1024
+                or not icon_bytes.startswith(bytes.fromhex("89504e470d0a1a0a"))
+                or icon_bytes[12:16] != b"IHDR"
+            ):
+                issues.append(name + ": invalid PNG branding asset")
+            else:
+                width = int.from_bytes(icon_bytes[16:20], "big")
+                height = int.from_bytes(icon_bytes[20:24], "big")
+                if width != height or not 48 <= width <= 4096:
+                    issues.append(name + ": branding asset must be square and 48-4096 px")
+            continue
         if path.suffix.lower() in {".db", ".sqlite", ".sqlite3", ".log", ".pem", ".key", ".exe", ".dll"} or path.name.startswith(".env"):
             issues.append(name + ": forbidden private/runtime file family")
         try:
