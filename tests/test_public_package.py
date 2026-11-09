@@ -44,6 +44,7 @@ def test_standalone_zip_layout_and_determinism(tmp_path):
         assert {"plugin.json", "LICENSE", "THIRD_PARTY_NOTICES.md", "requirements.txt"} <= names
         assert "skills/pekat-vision/scripts/generate_code_module.py" in names
         assert "skills/pekat-core-local/SKILL.md" in names
+        assert "assets/app-icon.png" in names
         assert not any(name.startswith(".git/") for name in names)
 
 
@@ -61,3 +62,15 @@ def test_reused_benchmark_routes_and_expectations():
         assert case["prompt"] and case["expected"]
         assert case["benchmark"] in identifiers
         assert (plugin / "skills/pekat-assistant" / case["reference"]).is_file()
+
+
+def test_plugin_uses_desktop_application_icon():
+    plugin = ROOT / "plugins/pekat-assistant"
+    manifest = json.loads((plugin / "plugin.json").read_text(encoding="utf-8"))
+    interface = manifest["extensions"]["com.openai"]["interface"]
+    assert interface["logo"] == "./assets/app-icon.png"
+    assert interface["composerIcon"] == interface["logo"]
+    payload = (plugin / "assets/app-icon.png").read_bytes()
+    assert payload.startswith(bytes.fromhex("89504e470d0a1a0a"))
+    assert int.from_bytes(payload[16:20], "big") == 256
+    assert int.from_bytes(payload[20:24], "big") == 256

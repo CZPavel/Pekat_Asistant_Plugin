@@ -21,7 +21,7 @@
     "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "plugins/pekat-assistant/acceptance-fixtures.yaml": "bded63387c764e32e93ea2cf4ea46b00e8bfe4a8c856d0319fad26af70b48727",
     "plugins/pekat-assistant/LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
-    "plugins/pekat-assistant/plugin.json": "f5640ba1688b1fe8115c225f7c2c7a404bacc1b420bbb80c9c59e7891a27983f",
+    "plugins/pekat-assistant/plugin.json": "794ca217b91b48e935e593f11030ba0c2d8d8f003b40a66fac544ea513c2c80b",
     "plugins/pekat-assistant/README.md": "1159b2605e6c35f572ef68b50c58b2b2a3d3e17f6ff8e56d705d95d50def9594",
     "plugins/pekat-assistant/requirements.txt": "be7775c9dec073babb8af6630c4f02581296432d84ac37d2fbcb60e63fcf10e2",
     "plugins/pekat-assistant/skills/pekat-assistant/references/docs/ARCHITECTURE.md": "aa0ae5d1e6a560c0fc75a845525612994a218611f64eafff5f9e6f86a623c662",
@@ -115,14 +115,14 @@
     "provenance/knowledge.json": "868f5b9420f5950412be86202e9740e786f5497536b0d1984c310156133144e8",
     "provenance/offline-tools.json": "baa1c8e23b1e09f84387cdaf73ab6098d18f72740c9623e6deaaeab83009c46d",
     "provenance/package-imports.json": "3d20ac48e40b7ded9ae5afab0c1d1ad1427b9ceebab87d14bf0e013913d3066f",
-    "README.md": "88eca3d493257b040a9c0a251a77cf131d795203af85bc287940f3ea6ed76279",
+    "README.md": "c77c85e06eebc560310d3a39e2f55d8edd1bcf2ecaa4e9d949cbd5a590001558",
     "requirements-dev.txt": "4163bb2f842cc0633fc3e4204d5b4bc873a18cb5c9b06b762718ce9cdd624b5d",
     "requirements.txt": "72567dde49a986e303dffccc32a63dac62259a62de7fa1013b8cdb5997cddc36",
     "scripts/build_release.py": "fff3c9204a4fce607c117e08f3270924e03ad7f18be1385a4c54ef1e740317a7",
     "scripts/check_upstream.py": "743d4887cbbb8454cf78bbad1768a7f60a216c4ca06b2b6a532b55f54cd8d673",
     "scripts/publication_manifest.py": "99161ed79cf733b80edae8a67fea126426fe89f19b0a42e671d4e0a3cb2af2ce",
     "scripts/smoke_tools.py": "10ef9cb52ac8ed4196e95bc8e295a9d03bc62f5337679eb21dd1cda47d6a7cb4",
-    "scripts/validate_public.py": "7586feab7862c68f448c50de31064019f79a2cfe5e6b362477ac4a0709b559c6",
+    "scripts/validate_public.py": "32ae2939441590939b71fda75caf3b33cd8580e7a0582f1c41b3da8e1d875710",
     "tests/core_adapter/test_core_adapter.py": "cd3ce97eff26a9f684c7270e46ee9a84f0c6d46321f38dd7ca5245182cf3bdb3",
     "tests/offline/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "tests/offline/conftest.py": "71b0688fc99e99702c38c8b7121501563fa07fe599eef8160211cd60f1911602",
@@ -146,7 +146,8 @@
     "tests/offline/test_rc14_guidance.py": "b939ba1255df4f35daf90cecb3abbb34ec4ab32454a04f5a6968979c1e824292",
     "tests/offline/test_rest_api_client_demo.py": "f1f216182c7331fe8325c698d136c033d7824e2214b6c6dee54f72af75942117",
     "tests/offline/test_training_history_analyzer.py": "fa54f106078ac0b2c884880d140c54970015566559ac3bc7ecfc45474acec6e9",
-    "tests/test_public_package.py": "19f67c438fcd550a8d86a0696f96cf4d96251a0735d83c51819d92f4053ba23a",
-    "THIRD_PARTY_NOTICES.md": "1317f3038006a5d56c43fb32f590d667785a80ad7de49417a560ee6b074e3cb0"
+    "tests/test_public_package.py": "93cf6898e9262cdf8b1a0f14ee59c05118c125e599d23b0045e7b6de4475cd8a",
+    "THIRD_PARTY_NOTICES.md": "1317f3038006a5d56c43fb32f590d667785a80ad7de49417a560ee6b074e3cb0",
+    "plugins/pekat-assistant/assets/app-icon.png": "f5b94e9318989c1e824c9f54b54c7eee4c54f12ef901a541a9166a5655f9b014"
   }
 }
