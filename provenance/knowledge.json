@@ -1,0 +1,279 @@
+{
+  "source_repository": "https://github.com/CZPavel/PEKAT-Assistant",
+  "source_commit": "61674e67e9e42a7752686467073dd5dec09d878e",
+  "source_license": "Apache-2.0",
+  "note": "Hashes identify upstream source files; the router was subsequently adapted. References retained without modification. New documentation is Apache-2.0.",
+  "files": [
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/ARCHITECTURE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/ARCHITECTURE.md",
+      "sha256": "aa0ae5d1e6a560c0fc75a845525612994a218611f64eafff5f9e6f86a623c662",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/CAPABILITIES.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/CAPABILITIES.md",
+      "sha256": "a12b8ac6167e9f5614efebe5c0ba6153b1a88a8161b6284c37b8a9fccb0b67d2",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/EVIDENCE_AND_VALIDATION_STATUS.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/EVIDENCE_AND_VALIDATION_STATUS.md",
+      "sha256": "fafa61d68abde568049801043934ee7af7c227e333c4d66fe7b6faeb795e9143",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/EVIDENCE_MODEL.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/EVIDENCE_MODEL.md",
+      "sha256": "fe59777fa27e074868c19d5ee9856381906984df0c71a4c6c65c8b7826a83ab9",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/IMAGE_CONTEXT_OUTPUT_GUIDE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/IMAGE_CONTEXT_OUTPUT_GUIDE.md",
+      "sha256": "13551dbf5b4d738afe57ba2f85d1788d1287a5ec1e3a4ce0c8dfa77c1eda39bb",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/PRACTICAL_RUNTIME_RULES.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/PRACTICAL_RUNTIME_RULES.md",
+      "sha256": "1ff4d7c0bcf26c84ec26f4a5b68a8d8aa83f0456dad637b5e0c064b2dd970b0d",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/PUBLIC_CAPABILITY_GUIDE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/PUBLIC_CAPABILITY_GUIDE.md",
+      "sha256": "464f60e396069215010ec269da35a521f96fa63b095b18f51e902e66813698c6",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/PUBLIC_DOMAIN_GUIDE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/PUBLIC_DOMAIN_GUIDE.md",
+      "sha256": "76fbf3908154c7a99fb687ff448b779d031244655009e9a815b5526e83a18541",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/SPECIALIST_SKILLS.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/SPECIALIST_SKILLS.md",
+      "sha256": "5ec08efb19b88587494b1249e00326f51bde21e7560dd039e1e2d09d9af38a25",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/USER_SCENARIOS.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/USER_SCENARIOS.md",
+      "sha256": "fe98fb1e0cd8d2a7a192fba69e4c574841f924f8d3ab1970be0d5f84b6ddd276",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/VERSION_MATRIX.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/VERSION_MATRIX.md",
+      "sha256": "ba41c3a58be33d5d42eae5063302be3a8ba26ea48dac880e4837cc22a4293566",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/VERSION_SUPPORT.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/docs/VERSION_SUPPORT.md",
+      "sha256": "af21d102f6b251426962da8f8b669c600dd483df66897f7c2d772948ef7250ab",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/ANOMALY_UNSUPERVISED.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/ANOMALY_UNSUPERVISED.md",
+      "sha256": "b9c55ea41444c7027db4f997f08c49f0a797d82b4ff823044f52141f48e4fe4e",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/CAMERA_ACQUISITION.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/CAMERA_ACQUISITION.md",
+      "sha256": "8c926dd1fb26abb3c0f0e32ce3368a40e9e2e15454584fbba186a1de2e47232a",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/CONTEXT_CODE_GLOBALDATA.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/CONTEXT_CODE_GLOBALDATA.md",
+      "sha256": "ab1d61af980313bf0c26d68bd49e54997029ce48939ea5e1ebccd5bed4ee9356",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/CROSS_PEKAT_403.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/CROSS_PEKAT_403.md",
+      "sha256": "60ae9ad08eddf89267d31d2327d115595ef6bf8a70ae82d79950d6e2eeafd677",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DATA_MODEL_PORTABILITY.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DATA_MODEL_PORTABILITY.md",
+      "sha256": "b79b0ad2a8b0dfbf8ec33bd3f01fca412e7bc05fd189f31c77ce1eeaaba47193",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DECISION_GUIDE_403.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DECISION_GUIDE_403.md",
+      "sha256": "5fa122b3a2aa3114ec1011072eb16ec9b5f00bed10a4476ec12c9d2a704fa1bd",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DETECTOR_ANNOTATION_403.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DETECTOR_ANNOTATION_403.md",
+      "sha256": "95172c16421a90f8cecb5443c0de780666f085d8638940634303f9e71e5d4120",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DETECTOR_CLASSIFIER_OCR.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/DETECTOR_CLASSIFIER_OCR.md",
+      "sha256": "f432c604f33a8a6e6cbb4cedb27e1b220fc1b05d4dca853999b586fceb1e4112",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/EXTERNAL_TEACHER_DETECTOR_BOOTSTRAP_403.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/EXTERNAL_TEACHER_DETECTOR_BOOTSTRAP_403.md",
+      "sha256": "e44ab41a8526db472dc06a03a10a496b3784fe8562425a79d805d784c936456d",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/EXTERNAL_TORCHVISION_PTOOL_403.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/EXTERNAL_TORCHVISION_PTOOL_403.md",
+      "sha256": "bff7c3c2d737a55fda8f7399ccb65a3d33470ecb0a222a1da87d47fd554f9062",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/FLOW_AUTHORING.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/FLOW_AUTHORING.md",
+      "sha256": "d20cf04f7b5f420d80d834f0fbc20dc74a69a3490960e47608261c44be59c739",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/HTTP_OUTPUT_403.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/HTTP_OUTPUT_403.md",
+      "sha256": "74702b229cbad3d2db6670a2affc100895bfc8e6921252e8bb6076c91c664729",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/LOG_DIAGNOSTICS.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/LOG_DIAGNOSTICS.md",
+      "sha256": "51f9ed626336cd376b0aad18b570aeba750213c8c9024830df7f48a565cb2a49",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/MODERNIZATION_ADVISOR.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/MODERNIZATION_ADVISOR.md",
+      "sha256": "3dccf3987e3a9943082ea81556914646f154d347044fbb61396766dace09c348",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/OCR_ANNOTATION.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/OCR_ANNOTATION.md",
+      "sha256": "9abfe26fbd4f83c27c81613f3b538f67ce7dbe2b6bbb01e9688c21e39fa64998",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PEKAT_VERSION_CAPABILITY_DELTA.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PEKAT_VERSION_CAPABILITY_DELTA.md",
+      "sha256": "63cb2f2b47f0c8e0174ba7d684688c3a91e19d4d0d9efe6263ceec0593eeb00e",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PROJECT_ANALYSIS.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PROJECT_ANALYSIS.md",
+      "sha256": "655555e596b05699351fc2a89fd47bdc46490d6a801faf68ca651fee81017cfc",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PROJECTS_OPERATOR_STATISTICS.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PROJECTS_OPERATOR_STATISTICS.md",
+      "sha256": "13bc9569dd06c0b495bdfebf66f786368bdd51cf49a7435348b24da5cf2f1fc2",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PTOOL_PMODULE_FORM.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/PTOOL_PMODULE_FORM.md",
+      "sha256": "85ad1fecd87c39c71923f76e955dc579618ca78e2400d0366182dfd242c4a237",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/REST_SDK_CROSS_PEKAT.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/REST_SDK_CROSS_PEKAT.md",
+      "sha256": "6e2b8c35cac1aefe8f6b0b588d0b5939d4a16d7625bfe7646b55d5dd5944c37e",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/RUNTIME_PYTHON_ML.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/RUNTIME_PYTHON_ML.md",
+      "sha256": "d3235e533c76558b4233945272e42715c0f7433cac0bda5267c3f53adfeabf15",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/SEMANTIC_PROJECT_DIFF.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/SEMANTIC_PROJECT_DIFF.md",
+      "sha256": "c0f4a3b0080d439bed58354b1e32abed41e174650521544af2e788a23adec813",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/SUPERVISED_MASK_LIFECYCLE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/SUPERVISED_MASK_LIFECYCLE.md",
+      "sha256": "fd73bfdceff0c2960b8ffb6424e2a90b44eebbebfaa35180ead2d4bd078e1928",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/TRAINING_HISTORY_DIAGNOSTICS.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/TRAINING_HISTORY_DIAGNOSTICS.md",
+      "sha256": "61f489c11d88d02d0a00b44887a25f2c5bec94d04f437284faab02fc3bc04d3f",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/TROUBLESHOOTING.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/TROUBLESHOOTING.md",
+      "sha256": "794192783d8c535e31021bd6c574e8337fa9b6acb10d4d3f760c04f92ee2cbb4",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/VERSION_ROUTING.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/VERSION_ROUTING.md",
+      "sha256": "b9e932373fcf7e3ebcc4fa03feeac6aff71be5070ef99d1eaef9bac120df11c8",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/VISION_DESIGN.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/assistant/VISION_DESIGN.md",
+      "sha256": "7a1172682c7cf8a10572e76568b6adc07ecbb23da4d5bafb8e5aaaf3ee159354",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/BASLER_PEKAT_BRIDGE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/BASLER_PEKAT_BRIDGE.md",
+      "sha256": "dddb1fc0daee63fb20c82377bdfa96a1554d31d6507c499cdf728f379fef8d2e",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/IFM_IOLINK_PEKAT_BRIDGE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/IFM_IOLINK_PEKAT_BRIDGE.md",
+      "sha256": "00d079b8889fdf6c72545eedde7d9b5a5be8d376f938aab6a4f2de497b5f8673",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/KEYENCE_LJX_PEKAT_BRIDGE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/KEYENCE_LJX_PEKAT_BRIDGE.md",
+      "sha256": "7f6f5ab7cb42af99df1c7dfd092fe2d5b8ca6630285f34396359090b76bd00aa",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/MX_G2000_OPERATIONAL_ROUTE.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/bridges/MX_G2000_OPERATIONAL_ROUTE.md",
+      "sha256": "f6dc857784f183cee661036986e3c0e8f7de9081edb395e72f5eee508326274d",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/INDEX.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/references/knowledge/INDEX.md",
+      "sha256": "930e09e233566e0debcc675d5f36c0d099493d27fc48462fa316424cde4420e5",
+      "treatment": "copied unchanged"
+    },
+    {
+      "source_path": "plugins/pekat-assistant/skills/pekat-assistant/SKILL.md",
+      "destination_path": "plugins/pekat-assistant/skills/pekat-assistant/SKILL.md",
+      "sha256": "37a9d9203132c006c4bffef5505307a00e7f0b4d2c374af0551db4026893bd13",
+      "treatment": "adapted router"
+    }
+  ],
+  "hash_basis": "upstream Git blob bytes before local integration adaptations"
+}

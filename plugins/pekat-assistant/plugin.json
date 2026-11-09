@@ -1,0 +1,21 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "pekat-assistant",
+  "version": "0.3.0",
+  "description": "Version-aware PEKAT VISION knowledge, bundled offline analysis and artifact generation, and optional local Core discovery.",
+  "license": "Apache-2.0 AND MIT",
+  "homepage": "https://github.com/CZPavel/Pekat_Asistant_Plugin",
+  "repository": "https://github.com/CZPavel/Pekat_Asistant_Plugin",
+  "extensions": {
+    "com.openai": {
+      "requires_local_executor": true,
+      "interface": {
+        "displayName": "PEKAT Assistant",
+        "shortDescription": "PEKAT knowledge and offline engineering tools",
+        "developerName": "CZPavel",
+        "category": "Productivity",
+        "capabilities": ["Knowledge", "Offline analysis", "Code and PTool generation"]
+      }
+    }
+  }
+}

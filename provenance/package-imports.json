@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/CZPavel/PEKAT-Assistant",
+  "commit": "61674e67e9e42a7752686467073dd5dec09d878e",
+  "license": "Apache-2.0",
+  "hash_basis": "upstream Git blob bytes",
+  "files": [
+    {
+      "source": "benchmarks/assistant_behavior_v0_2.yaml",
+      "destination": "benchmarks/assistant_behavior_v0_2.yaml",
+      "sha256": "986ba99a06e3e25063ee3e8bd2960ad00aff4ba8ef94b03acad27dfbfb1c1145"
+    },
+    {
+      "source": "plugins/pekat-assistant/acceptance-fixtures.yaml",
+      "destination": "plugins/pekat-assistant/acceptance-fixtures.yaml",
+      "sha256": "bded63387c764e32e93ea2cf4ea46b00e8bfe4a8c856d0319fad26af70b48727"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    }
+  ]
+}

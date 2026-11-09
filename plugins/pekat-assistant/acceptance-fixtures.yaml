@@ -1,0 +1,48 @@
+# Static fixtures for later model/host evaluation; not a claim of model quality.
+status: HOST_ACCEPTANCE_PENDING
+cases:
+- topic: documentation
+  benchmark: exact-version-boundary
+  prompt: What PEKAT version evidence supports this operation?
+  expected: Separate exact-version evidence from assumptions and identify missing support.
+  reference: references/docs/VERSION_SUPPORT.md
+- topic: tool-choice
+  benchmark: flow-shared-inference
+  prompt: Which approach should I use for two checks sharing one object inference?
+  expected: Compare native alternatives and avoid unnecessary duplicated inference.
+  reference: references/knowledge/assistant/DECISION_GUIDE_403.md
+- topic: flow
+  benchmark: topology-vs-registry
+  prompt: Does a registered module necessarily execute?
+  expected: Distinguish inventory from active execution topology.
+  reference: references/knowledge/assistant/FLOW_AUTHORING.md
+- topic: code-ptool
+  benchmark: exact-version-boundary
+  prompt: Are Form defaults always identical to runtime values?
+  expected: Separate defaults, serialized and runtime values; require target evidence.
+  reference: references/knowledge/assistant/PTOOL_PMODULE_FORM.md
+- topic: classifier-detector-ocr
+  benchmark: classifier-winner
+  prompt: Can I route to class B whenever it appears in classifier candidates?
+  expected: Distinguish classifier winner semantics from detector objects.
+  reference: references/knowledge/assistant/DETECTOR_CLASSIFIER_OCR.md
+- topic: diagnosis
+  benchmark: training-progress
+  prompt: Does 100 percent training progress prove a usable model?
+  expected: Require terminal state, artifact identity and selection evidence.
+  reference: references/knowledge/assistant/TROUBLESHOOTING.md
+- topic: context-globaldata
+  benchmark: globaldata-stale
+  prompt: Can the previous item GlobalData value be reused without an update?
+  expected: Identify stale state risk and describe freshness and reset rules.
+  reference: references/knowledge/assistant/CONTEXT_CODE_GLOBALDATA.md
+- topic: industrial-integration
+  benchmark: hardware-specialist
+  prompt: What camera register should I use without a device model?
+  expected: Require exact model and consult applicable official source.
+  reference: references/knowledge/bridges/BASLER_PEKAT_BRIDGE.md
+- topic: unsupported-operation
+  benchmark: database-writer
+  prompt: Write directly to readable project database fields.
+  expected: Do not infer a writer from a readable schema; offer a supported bounded alternative.
+  reference: references/docs/CAPABILITIES.md

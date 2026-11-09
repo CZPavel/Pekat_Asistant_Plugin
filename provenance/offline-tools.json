@@ -1,0 +1,308 @@
+{
+  "repository": "https://github.com/CZPavel/codex-skill-pekat-vision",
+  "commit": "73d4c61b515884a7de94ba18a84aa891c1c55ea1",
+  "license": "MIT",
+  "files": [
+    {
+      "source": ".github/skills/pekat-vision/SKILL.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/SKILL.md",
+      "sha256": "416a1cd93921bc31d0ff0a91da723a9086e42a0b1d0f79256d11f5cda368d521"
+    },
+    {
+      "source": ".github/skills/pekat-vision/agents/openai.yaml",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/agents/openai.yaml",
+      "sha256": "805a08422e3780e7efebb5568719708051d22583d4e09a8b38065a5e9b06b73b"
+    },
+    {
+      "source": ".github/skills/pekat-vision/assets/fixtures/form_types_3_19_3.pmodule",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/assets/fixtures/form_types_3_19_3.pmodule",
+      "sha256": "dd2a557939cdc31152fa2e1e479c41af450c25ca980da2a3ddf911eaa6ef3777"
+    },
+    {
+      "source": ".github/skills/pekat-vision/assets/fixtures/form_types_4_0_1.ptool",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/assets/fixtures/form_types_4_0_1.ptool",
+      "sha256": "4db19cfb931b580995887afc89f3b17145b4490f84c4ba043aa4ee5663f84ce7"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/code-library-installation.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/code-library-installation.md",
+      "sha256": "b5a48ecc2f55075c353567bf0a152464ffd1462fa6cff1ec1ad8c93982fda7e5"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/code-runtime-pekat401.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/code-runtime-pekat401.md",
+      "sha256": "a3749fe849738b540558956fb240293acdda0f25f4e033953a89ac9fc1cf3c05"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/code-runtime-pekat403.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/code-runtime-pekat403.md",
+      "sha256": "72f8ec52ed309570c0a852e17c6b8a5f4117570428a4a2d9a469974a27796630"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/data/pekat401_code_libraries.json",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/data/pekat401_code_libraries.json",
+      "sha256": "73d2a0f0f72a9b1931361e535b50cf308a0129bd06f8d3aeb465fa4cc2276e82"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/dataset-model-inspection.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/dataset-model-inspection.md",
+      "sha256": "96e9f54abea01e117699ed0ec554e67e8722a08ef0f5eb95c79c64a9d3698d96"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/flow-database-projects.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/flow-database-projects.md",
+      "sha256": "8cd8740ec69600745a3cd14a1f8cb7f770acc93697099f190c1e1026050bb971"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/industrial-hardware.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/industrial-hardware.md",
+      "sha256": "0560c93069412ca1fa6ee24efe6c7b8bb0f4c4cd56fa97b78dc2845ba1ba2c1b"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/log-troubleshooting.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/log-troubleshooting.md",
+      "sha256": "0092d07c451ef39ed94234d7a178c90f8e0b2e4da5ffcd5b1e5114bafb3a0dc0"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/module-format.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/module-format.md",
+      "sha256": "f381b5874e186a5e4a8312c37ea867080bf83430d13654359af691ae9ea9f6d7"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/module_spec.schema.json",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/module_spec.schema.json",
+      "sha256": "52320ee6ef2af72e5800b4c2b3378717c4eb05bffd33493d0d7c853be8c65a57"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/project-diagnostics.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/project-diagnostics.md",
+      "sha256": "d16d7848b4294554f6ccaeff5b7ae44d5faa81f6eb4f1f0f2a148d7e979f2f05"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/public-usage-and-roadmap.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/public-usage-and-roadmap.md",
+      "sha256": "85caa5885c14f163fe2e7756ffb980854baec234ceefb183b8663b1f7d483f95"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/rest-sdk-runtime.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/rest-sdk-runtime.md",
+      "sha256": "1e271ebfe06bd4f567b8e59d047e0ba4da8a3116357f8c8b31808b84e336055c"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/script-cookbook.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/script-cookbook.md",
+      "sha256": "4d32f7818ce474334c19d015e33657446400725563f3eb6feb5c55ffb9fa544a"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/source-state-pekat403.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/source-state-pekat403.md",
+      "sha256": "fbf3a37b2ee00baf07ae6a5a5e0f2baef9f1a16cf7cab675b270401def8e5f6e"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/training-history-diagnostics.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/training-history-diagnostics.md",
+      "sha256": "4e51fd3469fc76a69ca8a84c6fb4f01a33fba6651f790f4b7ef2d28dcc638fca"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/version-context.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/version-context.md",
+      "sha256": "f265fd34e56d518e584d52118059348becf469481b3081b1aafdf563ec6bac26"
+    },
+    {
+      "source": ".github/skills/pekat-vision/references/vision-design-routing.md",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/references/vision-design-routing.md",
+      "sha256": "315b91a6a3effb22696cc2b0e123856ba1e42c5e4671f67e9caf797dfe1192bc"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/add_libs_to_sys_path.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/add_libs_to_sys_path.py",
+      "sha256": "d8b8549c9cc8fe56d04065da46ca62da68bfb7971a2c9866aa23f27f28cfbd76"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/analyze_flow_database.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/analyze_flow_database.py",
+      "sha256": "9210539f49dcc7f6230c10365b1f32ff721a82fbe22a2213bfea0537777666b7"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/analyze_pekat_log.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/analyze_pekat_log.py",
+      "sha256": "7bdfdf048e7d7de98f6c07c28db69f50edc4c60ac30372836c5ae9488f9ea490"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/analyze_source_state_403.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/analyze_source_state_403.py",
+      "sha256": "2a6618b39e3b97d8e80e0771119ddf1216961ab5c19177b51ef81fbdc8d62919"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/analyze_training_history.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/analyze_training_history.py",
+      "sha256": "ba3591b76324658cb7af86ec91fc0886dac65f44ab8cf6cac3b529d0cc40e0f8"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/check_pekat_library_compat.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/check_pekat_library_compat.py",
+      "sha256": "faa2a2fc907c405fc4c21b1c9009bd87c207dc1cdbfbf98a99f5556f53897b9a"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/code_module_template.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/code_module_template.py",
+      "sha256": "83faaa4ec103b83022e6e7525713f207690245e9115b0828f5c7cebc6e1e98f1"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/form_normalization.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/form_normalization.py",
+      "sha256": "4c5cc998d16ee737aa78ae05996e4c75dc03309d81c20bf155bed3362fad0424"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/generate_code_module.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/generate_code_module.py",
+      "sha256": "b9b05790b583737f635e0b44049ed17fd3b5e0570eac64efc72000da44a88d53"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/industrial_io_guard.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/industrial_io_guard.py",
+      "sha256": "5d9da1916c5c7b14964dfdeecf05a9bf10cb989b1543f17c38e91a1844d342e0"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/inspect_dataset_model.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/inspect_dataset_model.py",
+      "sha256": "c81be3e1fd6c57d01e65ec8b3f61af7355e4eadb6687be56c963732964fe4755"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/pekat_project_diagnostics.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/pekat_project_diagnostics.py",
+      "sha256": "658bb57e67beb7b94b03adce59e8fd82a3a615487681f9fc8204f369653958a0"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/projects_manager_tcp_demo.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/projects_manager_tcp_demo.py",
+      "sha256": "9b541ec00ad98cd83e81218f8ca1f78d3c2270f492bb14f0b4bb63b495b4eebd"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/rest_api_client_demo.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/rest_api_client_demo.py",
+      "sha256": "0cf4032552140bc326bf8ad4a6ba686903d1d703a4014ef4fa99978e6db8e3fc"
+    },
+    {
+      "source": ".github/skills/pekat-vision/scripts/runtime_fingerprint.py",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/scripts/runtime_fingerprint.py",
+      "sha256": "e4fcce2785d8b2052827565e66a134a9db73db68d0cc7941bc9dcb8fc6e37f08"
+    },
+    {
+      "source": "tests/__init__.py",
+      "destination": "tests/offline/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "tests/conftest.py",
+      "destination": "tests/offline/conftest.py",
+      "sha256": "381ea63ecb6f6f627655d8ac4ab4916881fdfe5e86b2ccc6e6d9645430acb5ec"
+    },
+    {
+      "source": "tests/fixtures/golden_questions.yaml",
+      "destination": "tests/offline/fixtures/golden_questions.yaml",
+      "sha256": "bf6d9b7cf81c1bfea5e38ea95a64f5ea4c1681e5849f84904fc08f4c119418cd"
+    },
+    {
+      "source": "tests/fixtures/module_spec_4_0_3.json",
+      "destination": "tests/offline/fixtures/module_spec_4_0_3.json",
+      "sha256": "8470fa7f08cb7fd9186bee922a10090c4b0a1c36f952c8b327af0da61d353a46"
+    },
+    {
+      "source": "tests/test_403_backport.py",
+      "destination": "tests/offline/test_403_backport.py",
+      "sha256": "e5a24677a1e8a5870baa1ef23ce2b96c13e5ef222f41846be3d9177295add309"
+    },
+    {
+      "source": "tests/test_40x_family_normalization.py",
+      "destination": "tests/offline/test_40x_family_normalization.py",
+      "sha256": "33c8c43d1504f09e07ba78bd05c863764d7b2f288b7f5c3af29be7a228a376a9"
+    },
+    {
+      "source": "tests/test_bundle_security.py",
+      "destination": "tests/offline/test_bundle_security.py",
+      "sha256": "960f2f9b9117ce47d7d9061d99096f32c77f818f489e5e6deafaded0a71e65ce"
+    },
+    {
+      "source": "tests/test_code_module_smoke.py",
+      "destination": "tests/offline/test_code_module_smoke.py",
+      "sha256": "c73b5b3dc90a9ec29110cd5e251c27af568455f1f65ba55d61eea22014789a12"
+    },
+    {
+      "source": "tests/test_dataset_model_inspector.py",
+      "destination": "tests/offline/test_dataset_model_inspector.py",
+      "sha256": "2224e6953d71efc2c84331c151628ac82cf05822e62899b297d8f0f4a2dc0eb1"
+    },
+    {
+      "source": "tests/test_flow_database_analyzer.py",
+      "destination": "tests/offline/test_flow_database_analyzer.py",
+      "sha256": "aea31170427c5f7e084fa49998cc9c55c9ee58bcc6dda5d91867d2c24183ba7b"
+    },
+    {
+      "source": "tests/test_form_normalization.py",
+      "destination": "tests/offline/test_form_normalization.py",
+      "sha256": "f5bc696d1bc05b08292fa0425f9cfcf10e69deeefc8139939f647ce8f3f34a49"
+    },
+    {
+      "source": "tests/test_industrial_safety.py",
+      "destination": "tests/offline/test_industrial_safety.py",
+      "sha256": "98584dc86828377f19de3f60fe1460ada1c0be8208e2430a3122e4f31884d2f5"
+    },
+    {
+      "source": "tests/test_maintenance_feature_21.py",
+      "destination": "tests/offline/test_maintenance_feature_21.py",
+      "sha256": "3e703c514d92cabaefa7e9feb36d108753d5f74e48a561ed196b50fe3b4d4042"
+    },
+    {
+      "source": "tests/test_module_format.py",
+      "destination": "tests/offline/test_module_format.py",
+      "sha256": "cf46bf0775353f4820c12f145df483aff0e4f460e8bfd5cc163fd8fccfe26e33"
+    },
+    {
+      "source": "tests/test_parallelism_guidance.py",
+      "destination": "tests/offline/test_parallelism_guidance.py",
+      "sha256": "442c03ff12481243be0939436ea8f84fc9f54ac913a1a610d9e076df37b1ced0"
+    },
+    {
+      "source": "tests/test_pekat_library_compat.py",
+      "destination": "tests/offline/test_pekat_library_compat.py",
+      "sha256": "b53ae9639ce726f11d5094e54652aba9334e5b5a03ce732994eb64d1ee96aeb4"
+    },
+    {
+      "source": "tests/test_pekat_log_analyzer.py",
+      "destination": "tests/offline/test_pekat_log_analyzer.py",
+      "sha256": "da6d72cc9bc616a57978ad3ff495ff8d93849d14c47e057d6a9de8ea831939f2"
+    },
+    {
+      "source": "tests/test_pekat_project_diagnostics.py",
+      "destination": "tests/offline/test_pekat_project_diagnostics.py",
+      "sha256": "a11d9e5befe6cf2706ee4071f84602b120ca67b4c51174c45f55bde3885a6342"
+    },
+    {
+      "source": "tests/test_rc142_semantics.py",
+      "destination": "tests/offline/test_rc142_semantics.py",
+      "sha256": "f8fae74c417dd88408cca43f56e35a8102bef5f44871d0b27a348dd003b8be61"
+    },
+    {
+      "source": "tests/test_rc14_guidance.py",
+      "destination": "tests/offline/test_rc14_guidance.py",
+      "sha256": "6cdcd4f5128c36911223dcc64980f8db5cd2e87763e9a3ef117b000ac2862bb7"
+    },
+    {
+      "source": "tests/test_rest_api_client_demo.py",
+      "destination": "tests/offline/test_rest_api_client_demo.py",
+      "sha256": "f1f216182c7331fe8325c698d136c033d7824e2214b6c6dee54f72af75942117"
+    },
+    {
+      "source": "tests/test_training_history_analyzer.py",
+      "destination": "tests/offline/test_training_history_analyzer.py",
+      "sha256": "fa54f106078ac0b2c884880d140c54970015566559ac3bc7ecfc45474acec6e9"
+    },
+    {
+      "source": "LICENSE",
+      "destination": "plugins/pekat-assistant/skills/pekat-vision/LICENSE.md",
+      "sha256": "5827e779cdc5fa3ac0405977e6433e8ce90931f5bd4f6dd2adc96e49559fc32f"
+    }
+  ],
+  "hash_basis": "upstream Git blob bytes before local integration adaptations"
+}

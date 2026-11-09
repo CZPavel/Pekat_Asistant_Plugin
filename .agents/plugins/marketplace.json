@@ -1,0 +1,12 @@
+{
+  "name": "pekat-assistant-public",
+  "interface": {"displayName": "PEKAT Assistant"},
+  "plugins": [
+    {
+      "name": "pekat-assistant",
+      "source": {"source": "local", "path": "./plugins/pekat-assistant"},
+      "policy": {"installation": "AVAILABLE", "authentication": "ON_INSTALL"},
+      "category": "Productivity"
+    }
+  ]
+}
